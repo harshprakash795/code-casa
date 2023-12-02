@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO | CODECASA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/dist/images/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="flex items-center bg-red-200">
+                <div class="w-[100px]">
+                    <img src="/dist/images/fav-icon.png" alt="logo">
+                </div>
+                <div class="text-3xl font-bold my-0 text-red-600">
+                    <h1>TODO'S</h1>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="flex justify-center items-center gap-4 w-[90%] my-[50px] bg-red-200 h-[80px] rounded-lg m-auto">
+            <input type="text" name="todo" id="input-todo" class="w-[80%] h-[50px] rounded-xl placeholder:p-4 text-xl outline-none insert-input" placeholder="Add Your Task">
+            <button class="add-new"><i class="fa-solid fa-plus text-2xl bg-red-500 p-2 rounded-full cursor-pointer" style="color: #ffffff;"></i></button>
+        </div>
+
+        <div class="flex flex-col gap-6 bg-red-100 p-[40px] task-container">
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
